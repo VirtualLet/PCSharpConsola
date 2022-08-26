@@ -23,10 +23,11 @@ namespace PI_02IEnumerable
                 void Reset();                
             }
              */
+            UsoIEnumeratorIncluidoEnArreglos();
             ImplementandoIEnumerator();
 
         }
-
+        //lección 02IEnumerable
         private static void UsoIEnumeratorIncluidoEnArreglos()
         {
             CTiendaAuto cTienda = new CTiendaAuto();
@@ -38,7 +39,7 @@ namespace PI_02IEnumerable
             }
             Console.ReadLine();
         }
-
+        //Lección 03 IEnumerator
         private static void ImplementandoIEnumerator()
         {
             CContenedora datos = new CContenedora();
