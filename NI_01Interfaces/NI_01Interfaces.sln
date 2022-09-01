@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_12MetodosEstaticos", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_13Herencia", "..\POO_13Herencia\POO_13Herencia.csproj", "{8D7B646B-7161-4C9A-A366-C73B37E29C2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_14HerenciaConstructor", "..\POO_14HerenciaConstructor\POO_14HerenciaConstructor.csproj", "{6791FB57-F367-4604-BED2-9C3199CAC470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO_16Agregacion", "..\POO_16Agregacion\POO_16Agregacion.csproj", "{F4C4EE1C-D8AF-4395-A01B-3C208A4CF551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{8D7B646B-7161-4C9A-A366-C73B37E29C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D7B646B-7161-4C9A-A366-C73B37E29C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D7B646B-7161-4C9A-A366-C73B37E29C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6791FB57-F367-4604-BED2-9C3199CAC470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6791FB57-F367-4604-BED2-9C3199CAC470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6791FB57-F367-4604-BED2-9C3199CAC470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6791FB57-F367-4604-BED2-9C3199CAC470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C4EE1C-D8AF-4395-A01B-3C208A4CF551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C4EE1C-D8AF-4395-A01B-3C208A4CF551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C4EE1C-D8AF-4395-A01B-3C208A4CF551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C4EE1C-D8AF-4395-A01B-3C208A4CF551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
