@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C65DE7AA-D7C0-4129-84A4-F71A0875BF60}</ProjectGuid>
+    <ProjectGuid>{4DA71FE2-E530-44AC-A50E-688DA0880A9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>POO_20Abstract</RootNamespace>
-    <AssemblyName>POO_20Abstract</AssemblyName>
+    <RootNamespace>POO_22Polimorfismo</RootNamespace>
+    <AssemblyName>POO_22Polimorfismo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CProducto.cs" />
-    <Compile Include="CProductoDetenido.cs" />
-    <Compile Include="CProductoImportado.cs" />
+    <Compile Include="CAnimal.cs" />
+    <Compile Include="CGato.cs" />
+    <Compile Include="CPato.cs" />
+    <Compile Include="CPez.cs" />
+    <Compile Include="CReptil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

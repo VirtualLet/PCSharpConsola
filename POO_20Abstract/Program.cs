@@ -10,8 +10,17 @@ namespace POO_20Abstract
     {
         static void Main(string[] args)
         {
-            // TODO:  No se puede instanciar una clase abstracta directamente
 
+            CProductoImportado productoImportado = new CProductoImportado("Bici", 200, 400, 2);
+            CProductoDetenido productoDetenido = new CProductoDetenido("Bici", 200, 400, 2, 100);
+
+            productoImportado.CalculaPrecio();
+            productoImportado.MuestraVenta();
+
+            productoDetenido.CalculaPrecio();
+            productoDetenido.MuestraVenta();
+
+            Console.ReadLine();
         }
     }
 }
