@@ -10,19 +10,24 @@ namespace Pildoras_47Herencia_Ejercicio
             int opcion;
             do
             {
-
                 Console.WriteLine("Escriba 1-Coche 2-Avion 3-Vehiculo para ver sus métodos");
                 opcion = int.Parse(Console.ReadLine());
 
                 if (opcion != 4)
                 {
-                    CVehiculo vehiculo = opcion switch
+                    CVehiculo vehiculo;//= new CVehiculo();
+                    switch (opcion)
                     {
-                        1 => new CCoche(),
-                        2 => new CAvion(),
-                        _ => new CVehiculo()
-
-                    };
+                        case 1: vehiculo = new CCoche();
+                            ((CCoche)vehiculo).Acelerar();
+                            ((CCoche)vehiculo).Frenar();
+                            break;
+                        case 2: vehiculo = new CAvion();
+                            ((CAvion)vehiculo).Despegar();
+                            ((CAvion)vehiculo).Aterrizar();
+                            break;
+                        default: vehiculo = new CVehiculo(); break;                      
+                    }
 
                     vehiculo.Conducir();
                     vehiculo.DetenerMotor();

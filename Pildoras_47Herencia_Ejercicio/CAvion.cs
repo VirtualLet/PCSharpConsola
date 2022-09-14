@@ -12,5 +12,15 @@ namespace Pildoras_47Herencia_Ejercicio
         {
             Console.WriteLine("Se inicia la conducción para el despegue del avión");
         }
+
+        public void Despegar()
+        {
+            Console.WriteLine("Se prepara para despegar");
+        }
+
+        public void Aterrizar()
+        {
+            Console.WriteLine("Se pretende aterrizar");
+        }
     }
 }

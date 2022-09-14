@@ -12,5 +12,15 @@ namespace Pildoras_47Herencia_Ejercicio
         {
             Console.WriteLine("Se inicia conducción del coche");
         }
+
+        public void Acelerar()
+        {
+            Console.WriteLine("Se acelera");
+        }
+
+        public void Frenar()
+        {
+            Console.WriteLine("Se frena");
+        }
     }
 }
