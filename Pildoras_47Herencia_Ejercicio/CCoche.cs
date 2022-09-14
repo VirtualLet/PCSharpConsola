@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pildoras_43Herencia
+namespace Pildoras_47Herencia_Ejercicio
 {
-    class Avion:Vehiculo
+    class CCoche:CVehiculo
     {
         public override void Conducir()
         {
-            Console.WriteLine("Se inicia la conducción para el despegue del avión");
+            Console.WriteLine("Se inicia conducción del coche");
         }
     }
 }

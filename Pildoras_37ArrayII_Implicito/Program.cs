@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Pildoras_37ArrayII
+namespace Pildoras_37ArrayII_Implicito
 {
     class Program
     {
         static void Main(string[] args)
         {
-           
+
             //Array implicito
             Console.WriteLine("=====Array implicito=======");
             var datos = new[] { "Juan", "Laura", "Ramon" };
@@ -36,10 +36,10 @@ namespace Pildoras_37ArrayII
             {
                 Console.WriteLine("Nombre:{0} Edad:{1}", item.Nombre, item.Edad);
             }
-            
+
             Console.WriteLine("----Muestra Array de personaPrueba");
-            
-            Empleado[] arrayPrueba =new Empleado[] {  new Empleado("raul", 34), 
+
+            Empleado[] arrayPrueba = new Empleado[] {  new Empleado("raul", 34),
                                                      new Empleado("Renato", 32),
                                                     new Empleado(){Nombre="Lilia",Edad=20 },
                                                     personaPrueba};
@@ -51,14 +51,14 @@ namespace Pildoras_37ArrayII
             Console.WriteLine("----Muestra Array de empleado");
             Empleado empleado = new Empleado("Edith", 35);
 
-            Empleado[] arrayEmpleado = new Empleado[3];            
+            Empleado[] arrayEmpleado = new Empleado[3];
             arrayEmpleado[0] = new Empleado() { Nombre = "Laura", Edad = 28 };
             arrayEmpleado[1] = new Empleado("Lety", 37);
             arrayEmpleado[2] = empleado;
 
-            foreach ( var item in arrayEmpleado)
+            foreach (var item in arrayEmpleado)
             {
-                Console.WriteLine("Nombre:{0} Edad:{1}",item.Nombre, item.Edad);
+                Console.WriteLine("Nombre:{0} Edad:{1}", item.Nombre, item.Edad);
             }
 
             //Array de tipos o clases anónimas
@@ -71,11 +71,11 @@ namespace Pildoras_37ArrayII
                 new{Nombre="Luis",Edad=40}
             };
             Console.WriteLine(personas[0]);
-            Console.WriteLine("Muestra Nombre={0},Edad={1}",personas[0].Nombre,personas[0].Edad);
+            Console.WriteLine("Muestra Nombre={0},Edad={1}", personas[0].Nombre, personas[0].Edad);
 
-            foreach(var item in personas)
+            foreach (var item in personas)
             {
-                Console.WriteLine("Muestra Nombre={0},Edad={1}",item.Nombre,item.Edad);
+                Console.WriteLine("Muestra Nombre={0},Edad={1}", item.Nombre, item.Edad);
             }
             Console.ReadLine();
         }
@@ -87,12 +87,12 @@ namespace Pildoras_37ArrayII
         string nombre;
         int edad;
         public Empleado() { }
-       public Empleado (string pNombre, int pEdad)
+        public Empleado(string pNombre, int pEdad)
         {
             nombre = pNombre;
             edad = pEdad;
         }
         public string Nombre { get => nombre; set => nombre = value; }
-        public int Edad { get => edad; set=> edad=value; }
+        public int Edad { get => edad; set => edad = value; }
     }
 }

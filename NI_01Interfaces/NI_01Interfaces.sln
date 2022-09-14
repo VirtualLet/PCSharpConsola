@@ -47,11 +47,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_08SortedList", "..\PA_08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_09Stack", "..\PA_09Stack\PA_09Stack.csproj", "{69048673-C131-4D33-866D-99FB703D2060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_36Array", "..\Pildoras_36Array\Pildoras_36Array.csproj", "{4C9F58A0-B847-4177-A50B-4DB1D6F17815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_36Array", "..\Pildoras_36Array\Pildoras_36Array.csproj", "{4C9F58A0-B847-4177-A50B-4DB1D6F17815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_37ArrayII", "..\Pildoras_37ArrayII\Pildoras_37ArrayII.csproj", "{D1A2EA68-BCBE-478C-97BC-A74DB11B9FB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_35ClasesAnonimas", "..\Pildoras_35ClasesAnonimas\Pildoras_35ClasesAnonimas.csproj", "{85D21992-ED3A-4B1F-BD85-3C213B7EC9E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_35ClasesAnonimas", "..\Pildoras_35ClasesAnonimas\Pildoras_35ClasesAnonimas.csproj", "{85D21992-ED3A-4B1F-BD85-3C213B7EC9E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_42HerenciaII", "..\Pildoras_42HerenciaII\Pildoras_42HerenciaII.csproj", "{7711EB38-1EA7-4848-88B6-B77314127118}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_40ArrayV_PorParametros", "..\Pildoras_40ArrayV_PorParametros\Pildoras_40ArrayV_PorParametros.csproj", "{771473DF-B67E-429A-BB0B-E107EEEAA79A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_37ArrayII_Implicito", "..\Pildoras_37ArrayII_Implicito\Pildoras_37ArrayII_Implicito.csproj", "{ADA94090-83C5-42B0-B41B-B10D9B22FD8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_43HerenciaIII_Constructores", "..\Pildoras_43HerenciaIII_Constructores\Pildoras_43HerenciaIII_Constructores.csproj", "{D46F11BE-F6F8-4B72-8EE0-4CCBDA8F5434}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_44Herencia_PrincipioSustitucion", "..\Pildoras_44Herencia_PrincipioSustitucion\Pildoras_44Herencia_PrincipioSustitucion.csproj", "{9CFB5F9B-82FF-45A2-9A51-B31158BD73A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_45Herencia_Polimorfismo", "..\Pildoras_45Herencia_Polimorfismo\Pildoras_45Herencia_Polimorfismo.csproj", "{2DDCDD7A-EE62-4702-9BE8-2749B846456F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_47Herencia_Ejercicio", "..\Pildoras_47Herencia_Ejercicio\Pildoras_47Herencia_Ejercicio.csproj", "{394DF140-4577-401B-8F75-1B5F1A57DD3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,14 +163,38 @@ Global
 		{4C9F58A0-B847-4177-A50B-4DB1D6F17815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C9F58A0-B847-4177-A50B-4DB1D6F17815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C9F58A0-B847-4177-A50B-4DB1D6F17815}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D1A2EA68-BCBE-478C-97BC-A74DB11B9FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1A2EA68-BCBE-478C-97BC-A74DB11B9FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1A2EA68-BCBE-478C-97BC-A74DB11B9FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1A2EA68-BCBE-478C-97BC-A74DB11B9FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{85D21992-ED3A-4B1F-BD85-3C213B7EC9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85D21992-ED3A-4B1F-BD85-3C213B7EC9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85D21992-ED3A-4B1F-BD85-3C213B7EC9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85D21992-ED3A-4B1F-BD85-3C213B7EC9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7711EB38-1EA7-4848-88B6-B77314127118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7711EB38-1EA7-4848-88B6-B77314127118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7711EB38-1EA7-4848-88B6-B77314127118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7711EB38-1EA7-4848-88B6-B77314127118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771473DF-B67E-429A-BB0B-E107EEEAA79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771473DF-B67E-429A-BB0B-E107EEEAA79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771473DF-B67E-429A-BB0B-E107EEEAA79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771473DF-B67E-429A-BB0B-E107EEEAA79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA94090-83C5-42B0-B41B-B10D9B22FD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA94090-83C5-42B0-B41B-B10D9B22FD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA94090-83C5-42B0-B41B-B10D9B22FD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA94090-83C5-42B0-B41B-B10D9B22FD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46F11BE-F6F8-4B72-8EE0-4CCBDA8F5434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46F11BE-F6F8-4B72-8EE0-4CCBDA8F5434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46F11BE-F6F8-4B72-8EE0-4CCBDA8F5434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46F11BE-F6F8-4B72-8EE0-4CCBDA8F5434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFB5F9B-82FF-45A2-9A51-B31158BD73A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFB5F9B-82FF-45A2-9A51-B31158BD73A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFB5F9B-82FF-45A2-9A51-B31158BD73A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFB5F9B-82FF-45A2-9A51-B31158BD73A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDCDD7A-EE62-4702-9BE8-2749B846456F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDCDD7A-EE62-4702-9BE8-2749B846456F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDCDD7A-EE62-4702-9BE8-2749B846456F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDCDD7A-EE62-4702-9BE8-2749B846456F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394DF140-4577-401B-8F75-1B5F1A57DD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394DF140-4577-401B-8F75-1B5F1A57DD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394DF140-4577-401B-8F75-1B5F1A57DD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394DF140-4577-401B-8F75-1B5F1A57DD3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

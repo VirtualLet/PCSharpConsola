@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pildoras_43Herencia
+namespace Pildoras_47Herencia_Ejercicio
 {
-    class Vehiculo
+    class CVehiculo
     {
         public  void PonerEnMarchaMotor()
         {
