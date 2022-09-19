@@ -63,11 +63,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_45Herencia_Polimor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_47Herencia_Ejercicio", "..\Pildoras_47Herencia_Ejercicio\Pildoras_47Herencia_Ejercicio.csproj", "{394DF140-4577-401B-8F75-1B5F1A57DD3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_50Interfaces", "..\Pildoras_50Interfaces\Pildoras_50Interfaces.csproj", "{E274E726-1930-4E99-9CE6-7115DC856651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_50Interfaces", "..\Pildoras_50Interfaces\Pildoras_50Interfaces.csproj", "{E274E726-1930-4E99-9CE6-7115DC856651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_51Interfaces_Ejemplo", "..\Pildoras_51Interfaces_Ejemplo\Pildoras_51Interfaces_Ejemplo.csproj", "{AAB017B4-8E23-4F43-A099-384DF2597762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_51Interfaces_Ejemplo", "..\Pildoras_51Interfaces_Ejemplo\Pildoras_51Interfaces_Ejemplo.csproj", "{AAB017B4-8E23-4F43-A099-384DF2597762}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_11ListGenerica", "..\PA_11ListGenerica\PA_11ListGenerica.csproj", "{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_57Structs", "..\Pildoras_57Structs\Pildoras_57Structs.csproj", "{982614F2-75DD-4C29-A350-8A01D6C88DD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982614F2-75DD-4C29-A350-8A01D6C88DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982614F2-75DD-4C29-A350-8A01D6C88DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982614F2-75DD-4C29-A350-8A01D6C88DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982614F2-75DD-4C29-A350-8A01D6C88DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
