@@ -13,6 +13,8 @@ namespace Pildoras_57Structs
              * No heredan de otras clases pero si implementan interfaces
              * Son selladas (sealed)
              */
+            //Cuando las instancias no cambien
+            //Cuando no se necesite convertir nada a objeto unboxing
 
             Empleado empleado = new Empleado("Juan", 1000, 400);
             Console.WriteLine(empleado);
