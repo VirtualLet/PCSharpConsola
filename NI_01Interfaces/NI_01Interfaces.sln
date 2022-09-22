@@ -81,15 +81,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_59Destructores", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_60GenericosH", "..\Pildoras_60GenericosH\Pildoras_60GenericosH.csproj", "{05E8FCFF-C654-40D5-8564-8A6B619888EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_62Genericos", "..\Pildoras_62Genericos\Pildoras_62Genericos.csproj", "{A8C5E0EB-741B-4229-90E5-8EB2F6C45559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_62Genericos", "..\Pildoras_62Genericos\Pildoras_62Genericos.csproj", "{A8C5E0EB-741B-4229-90E5-8EB2F6C45559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_63ColeccionesList", "..\Pildoras_63ColeccionesList\Pildoras_63ColeccionesList.csproj", "{2F674B50-893E-4035-B791-A7A369F78DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_63ColeccionesList", "..\Pildoras_63ColeccionesList\Pildoras_63ColeccionesList.csproj", "{2F674B50-893E-4035-B791-A7A369F78DE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_64ColeccionesLinkedList", "..\Pildoras_64ColeccionesLinkedList\Pildoras_64ColeccionesLinkedList.csproj", "{3F41556A-EA9C-4B69-805B-FD668770BAAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_64ColeccionesLinkedList", "..\Pildoras_64ColeccionesLinkedList\Pildoras_64ColeccionesLinkedList.csproj", "{3F41556A-EA9C-4B69-805B-FD668770BAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_65ColeccionesQueue", "..\Pildoras_65ColeccionesQueue\Pildoras_65ColeccionesQueue.csproj", "{4CC3B152-8549-415A-A690-301DDB47F25A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_65ColeccionesQueue", "..\Pildoras_65ColeccionesQueue\Pildoras_65ColeccionesQueue.csproj", "{4CC3B152-8549-415A-A690-301DDB47F25A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_66ColeccionesStack_Dictionary", "..\Pildoras_66ColeccionesStack_Dictionary\Pildoras_66ColeccionesStack_Dictionary.csproj", "{7C70A8A7-E183-4978-9886-73508626A4A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_66ColeccionesStack_Dictionary", "..\Pildoras_66ColeccionesStack_Dictionary\Pildoras_66ColeccionesStack_Dictionary.csproj", "{7C70A8A7-E183-4978-9886-73508626A4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_67DelegadosPredicadoLambdasI", "..\Pildoras_67DelegadosPredicadoLambdasI\Pildoras_67DelegadosPredicadoLambdasI.csproj", "{34C0C92D-BC96-46A9-8C38-CCB681A0554D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_68DelegadosPredicados", "..\Pildoras_68DelegadosPredicados\Pildoras_68DelegadosPredicados.csproj", "{9EE26608-5AE3-413E-B1DF-ACB474CCCB8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +277,14 @@ Global
 		{7C70A8A7-E183-4978-9886-73508626A4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C70A8A7-E183-4978-9886-73508626A4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C70A8A7-E183-4978-9886-73508626A4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C0C92D-BC96-46A9-8C38-CCB681A0554D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C0C92D-BC96-46A9-8C38-CCB681A0554D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C0C92D-BC96-46A9-8C38-CCB681A0554D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C0C92D-BC96-46A9-8C38-CCB681A0554D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE26608-5AE3-413E-B1DF-ACB474CCCB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE26608-5AE3-413E-B1DF-ACB474CCCB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE26608-5AE3-413E-B1DF-ACB474CCCB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE26608-5AE3-413E-B1DF-ACB474CCCB8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

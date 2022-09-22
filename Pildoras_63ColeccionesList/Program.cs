@@ -32,7 +32,72 @@ namespace Pildoras_63ColeccionesList
             Console.ReadLine();
         }
 
+        public static void FormaAgregaElementosAListaUno()
+        {
+            List<CPersona> listPersona = new List<CPersona> {
+                    new CPersona { Nombre = "Leticia", Edad = 37 },
+                    new CPersona { Nombre = "Lucia", Edad = 7 },
+                    new CPersona { Nombre = "Lia", Edad = 30 },
+                    new CPersona { Nombre = "Laura", Edad = 17 }};
 
+            foreach (CPersona item in listPersona)
+            {
+                Console.WriteLine("{0} {1} ", item.Nombre, item.Edad);
+            }
+
+        }
+
+        public static void FormaAgregaElementosAListaDos()
+        {
+            List<CPersona> listPersona = new List<CPersona>();
+            listPersona.AddRange(new CPersona[]{ new CPersona { Nombre = "Tomas", Edad = 20 },
+                                                 new CPersona { Nombre = "Pedro", Edad = 40 } });
+            foreach (CPersona item in listPersona)
+            {
+                Console.WriteLine("{0} {1} ", item.Nombre, item.Edad);
+            }
+        }
+
+        public static void FormaAgregaElementosAListaTres()
+        {
+            List<CPersona> listPersona = new List<CPersona>();
+            CPersona persona1 = new CPersona();
+            persona1.Nombre = "Tylor";
+            persona1.Edad = 32;
+            CPersona persona2 = new CPersona();
+            persona2.Nombre = "Oscar";
+            persona2.Edad = 22;
+
+            listPersona.AddRange(new CPersona[] { persona1, persona2 });
+
+            foreach (CPersona item in listPersona)
+            {
+                Console.WriteLine("{0} {1} ", item.Nombre, item.Edad);
+            }
+        }
+        public static void DiversasFormasDeAgregarElementosALista()
+        {
+            Console.WriteLine("\nMostrando Predicado usando Clases \n");
+            List<CPersona> listPersona = new List<CPersona> {
+                    new CPersona { Nombre = "Leticia", Edad = 37 },
+                    new CPersona { Nombre = "Lucia", Edad = 7 },
+                    new CPersona { Nombre = "Lia", Edad = 30 },
+                    new CPersona { Nombre = "Laura", Edad = 17 }};
+
+            listPersona.AddRange(new CPersona[]{ new CPersona { Nombre = "Tomas", Edad = 20 },
+                                                 new CPersona { Nombre = "Pedro", Edad = 40 } });
+            CPersona persona1 = new CPersona();
+            persona1.Nombre = "Tylor";
+            persona1.Edad = 32;
+            CPersona persona2 = new CPersona { Nombre = "Marcus", Edad = 20 };
+
+            listPersona.AddRange(new CPersona[] { persona1, persona2 });
+
+            foreach (CPersona item in listPersona)
+            {
+                Console.WriteLine("{0} {1} ", item.Nombre, item.Edad);
+            }
+        }
 
 
 
