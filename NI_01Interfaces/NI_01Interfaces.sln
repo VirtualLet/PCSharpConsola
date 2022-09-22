@@ -75,9 +75,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_53ClaseAbstracta",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_55Propiedades", "..\Pildoras_55Propiedades\Pildoras_55Propiedades.csproj", "{712CEE24-5E20-488F-9F88-404BA6CA121D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_58Enum", "..\Pildoras_58Enum\Pildoras_58Enum.csproj", "{69010534-C545-4730-8A34-3DEE8BD50F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_58Enum", "..\Pildoras_58Enum\Pildoras_58Enum.csproj", "{69010534-C545-4730-8A34-3DEE8BD50F66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_59Destructores", "..\Pildoras_59Destructores\Pildoras_59Destructores.csproj", "{61F88BB0-9889-455C-B449-C744D5870463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_59Destructores", "..\Pildoras_59Destructores\Pildoras_59Destructores.csproj", "{61F88BB0-9889-455C-B449-C744D5870463}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_60GenericosH", "..\Pildoras_60GenericosH\Pildoras_60GenericosH.csproj", "{05E8FCFF-C654-40D5-8564-8A6B619888EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_62Genericos", "..\Pildoras_62Genericos\Pildoras_62Genericos.csproj", "{A8C5E0EB-741B-4229-90E5-8EB2F6C45559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_63ColeccionesList", "..\Pildoras_63ColeccionesList\Pildoras_63ColeccionesList.csproj", "{2F674B50-893E-4035-B791-A7A369F78DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_64ColeccionesLinkedList", "..\Pildoras_64ColeccionesLinkedList\Pildoras_64ColeccionesLinkedList.csproj", "{3F41556A-EA9C-4B69-805B-FD668770BAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_65ColeccionesQueue", "..\Pildoras_65ColeccionesQueue\Pildoras_65ColeccionesQueue.csproj", "{4CC3B152-8549-415A-A690-301DDB47F25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_66ColeccionesStack_Dictionary", "..\Pildoras_66ColeccionesStack_Dictionary\Pildoras_66ColeccionesStack_Dictionary.csproj", "{7C70A8A7-E183-4978-9886-73508626A4A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +249,30 @@ Global
 		{61F88BB0-9889-455C-B449-C744D5870463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61F88BB0-9889-455C-B449-C744D5870463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61F88BB0-9889-455C-B449-C744D5870463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E8FCFF-C654-40D5-8564-8A6B619888EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E8FCFF-C654-40D5-8564-8A6B619888EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E8FCFF-C654-40D5-8564-8A6B619888EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E8FCFF-C654-40D5-8564-8A6B619888EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C5E0EB-741B-4229-90E5-8EB2F6C45559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C5E0EB-741B-4229-90E5-8EB2F6C45559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C5E0EB-741B-4229-90E5-8EB2F6C45559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C5E0EB-741B-4229-90E5-8EB2F6C45559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F674B50-893E-4035-B791-A7A369F78DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F674B50-893E-4035-B791-A7A369F78DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F674B50-893E-4035-B791-A7A369F78DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F674B50-893E-4035-B791-A7A369F78DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F41556A-EA9C-4B69-805B-FD668770BAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F41556A-EA9C-4B69-805B-FD668770BAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F41556A-EA9C-4B69-805B-FD668770BAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F41556A-EA9C-4B69-805B-FD668770BAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC3B152-8549-415A-A690-301DDB47F25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC3B152-8549-415A-A690-301DDB47F25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC3B152-8549-415A-A690-301DDB47F25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC3B152-8549-415A-A690-301DDB47F25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C70A8A7-E183-4978-9886-73508626A4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C70A8A7-E183-4978-9886-73508626A4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C70A8A7-E183-4978-9886-73508626A4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C70A8A7-E183-4978-9886-73508626A4A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
