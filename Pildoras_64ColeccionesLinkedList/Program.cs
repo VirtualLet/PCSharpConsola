@@ -19,6 +19,8 @@ namespace Pildoras_64ColeccionesLinkedList
                 Console.WriteLine(nodo.Value);
             }
 
+            List<int> listNum = new List<int>() { 2, 3, 5, 1 };
+
             Console.WriteLine("Mostrando linkedList sin el elemento 6");
             linkNumeros.Remove(6);
 
@@ -36,15 +38,13 @@ namespace Pildoras_64ColeccionesLinkedList
                 Console.WriteLine(nodo.Value);
             }
 
-
-
             //MostrarListaUsandoAddFirst()
-            //MostrarListaUsandoLastFirst()
-
+            MostrarListaUsandoAddLast();
+            MostrarListaAgregandoUnArrayAListaLinked();
             Console.ReadLine();
         }
 
-        public void MostrarListaUsandoAddFirst()
+        public static void MostrarListaUsandoAddFirst()
         {
             LinkedList<int> linkNumeros = new LinkedList<int>();
 
@@ -57,7 +57,15 @@ namespace Pildoras_64ColeccionesLinkedList
 
         }
 
-        public void MostrarListaUsandoAddLast()
+        public static void MostrarListaAgregandoUnArrayAListaLinked()
+        {
+            Console.WriteLine("Otra forma de añadir elementos de un array a un LinkedList");
+            int[] arregloNumero = new int[] { 10, 8, 6, 4, 2 };
+            LinkedList<int> linkPrueba = new LinkedList<int>(arregloNumero);
+            MostrarLinkeList(linkPrueba);
+        }
+
+        public static void MostrarListaUsandoAddLast()
         {
             Console.WriteLine("Muestra lista en order decreciente");
             LinkedList<int> linkNumeros2 = new LinkedList<int>();

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}</ProjectGuid>
+    <ProjectGuid>{8D6ED38B-C2C5-4EFD-B8EE-98B74E51001E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PA_11ListGenerica</RootNamespace>
-    <AssemblyName>PA_11ListGenerica</AssemblyName>
+    <RootNamespace>PA_16MetodosGenericos</RootNamespace>
+    <AssemblyName>PA_16MetodosGenericos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CPunto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

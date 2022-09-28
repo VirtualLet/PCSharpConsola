@@ -122,25 +122,62 @@ namespace Pildoras_63ColeccionesList
 
         public static void AgregarArrayAunaLista()
         {
-            List<int> numeros = new List<int>();
-            numeros.Add(4);
-            numeros.Add(33);
+            List<int> listaNumeros = new List<int>();
+            listaNumeros.Add(4);
+            listaNumeros.Add(33);
 
-            int[] listaNumeros = new int[] { 2, 3, 4, 5 };
+            int[] arrayNumeros = new int[] { 2, 3, 4, 5 };
 
             Console.WriteLine("Para agregar elementos de un array a una lista");
-            for (int i = 0; i < listaNumeros.Length; i++)
+            for (int i = 0; i < arrayNumeros.Length; i++)
             {
-                numeros.Add(listaNumeros[i]);
+                listaNumeros.Add(arrayNumeros[i]);
             }
 
-            foreach (int item in numeros)
+            foreach (int item in listaNumeros)
             {
                 Console.WriteLine(item);
             }
         }
 
+        public static void AgregarArrayAunaListaOtraForma()
+        {
+            int[] arrayNumeros = new int[] { 2, 3, 4, 5 };
+            List<int> listaNumeros = new() { 4, 33 };   
 
+            Console.WriteLine("Para agregar elementos de un array a una lista");
+            listaNumeros.AddRange(arrayNumeros);
+
+            foreach (int item in listaNumeros)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        public static void AgregarArrayAunaListaOtraFormaDos()
+        {
+            int[] arrayNumeros = new int[] { 2, 3, 4, 5 };
+            Console.WriteLine("Para agregar elementos de un array a una lista");
+            List<int> listaNumeros = new List<int>(arrayNumeros);
+            listaNumeros.AddRange(new int[] { 4, 33 }); //por si quisiera agregar mas elementos 
+
+            foreach (int item in listaNumeros)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        public static void AgregarArrayAunaListaOtraFormaTres()
+        {
+            Console.WriteLine("Para agregar elementos de un array a una lista");
+            List<int> listaNumeros = new List<int>(new int[] { 2, 3, 4, 5 }); //lo incluyo directamente
+            listaNumeros.AddRange(new int[] { 4, 33 }); //por si quisiera agregar mas elementos 
+
+            foreach (int item in listaNumeros)
+            {
+                Console.WriteLine(item);
+            }
+        }
         public void Informativo()
         {
           string info=  string.Format("Colecciones ¿Qué son?\n" +

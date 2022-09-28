@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}</ProjectGuid>
+    <ProjectGuid>{717407F1-DED8-46F9-A973-C405B15D7295}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PA_11ListGenerica</RootNamespace>
-    <AssemblyName>PA_11ListGenerica</AssemblyName>
+    <RootNamespace>PA_14ObservableCollection</RootNamespace>
+    <AssemblyName>PA_14ObservableCollection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

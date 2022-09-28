@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}</ProjectGuid>
+    <ProjectGuid>{B6E53B74-2E45-4E6B-BA10-956743717395}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PA_11ListGenerica</RootNamespace>
-    <AssemblyName>PA_11ListGenerica</AssemblyName>
+    <RootNamespace>PA_13StackQueueGenerico</RootNamespace>
+    <AssemblyName>PA_13StackQueueGenerico</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

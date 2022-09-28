@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{672C9CE6-F4BC-4CA2-93E1-B6203D44FDF9}</ProjectGuid>
+    <ProjectGuid>{21CA4FFD-D00E-41E3-BFD6-3D742B8F26D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PA_11ListGenerica</RootNamespace>
-    <AssemblyName>PA_11ListGenerica</AssemblyName>
+    <RootNamespace>PA_ProblemasClaseGenerica</RootNamespace>
+    <AssemblyName>PA_ProblemasClaseGenerica</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CPunto.cs" />
+    <Compile Include="COperacion.cs" />
+    <Compile Include="COperacionModificado.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
