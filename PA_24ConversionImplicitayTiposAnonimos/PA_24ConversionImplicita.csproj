@@ -4,9 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27C01E66-BC78-453D-8B95-5744771E458A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PA_21Predicate</RootNamespace>
-    <AssemblyName>PA_21Predicate</AssemblyName>
+    <RootNamespace>PA_24ConversionImplicitayTiposAnonimos</RootNamespace>
+    <AssemblyName>PA_24ConversionImplicitayTiposAnonimos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CComplejo.cs" />
+    <Compile Include="CReal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
