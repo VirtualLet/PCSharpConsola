@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7A63660B-CFD2-4932-BD94-FEF8672AF4BE}</ProjectGuid>
+    <ProjectGuid>{E9E0D286-72A8-46E5-B497-D5DCCD2C1D29}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>PA_22ExpresionesLambda</RootNamespace>
     <AssemblyName>PA_22ExpresionesLambda</AssemblyName>

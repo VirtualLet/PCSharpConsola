@@ -4,6 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E12C498-0C89-4DC3-8C91-6C9CA5FF22BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>PA_21Predicate</RootNamespace>
     <AssemblyName>PA_21Predicate</AssemblyName>
