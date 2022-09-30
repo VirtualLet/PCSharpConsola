@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 
 namespace Pildoras_69DelegadosExpresionesLambda
-
 {
     class Program
     {
         public delegate int IntDelegado(int pNumero);
         public delegate int IntDelegadoParam(int pNumero1, int pNumero2);
-        public delegate bool DelBoolCompara(int pEdad1,int pEdad2);
+        public delegate bool DelBoolCompara(int pEdad1, int pEdad2);
         public delegate bool DelBoolComparaString(string pNombreUno, string pNombreDos);
         static void Main(string[] args)
         {
@@ -28,46 +27,46 @@ namespace Pildoras_69DelegadosExpresionesLambda
             //Usando expresiones lambda
             intDelegadoParam = new IntDelegadoParam((num1, num2) => num1 + num2);
 
-            Console.WriteLine(intDelegadoParam(4,5));
+            Console.WriteLine(intDelegadoParam(4, 5));
 
             Console.WriteLine("-----");
             List<int> listNumeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             List<int> listNumerosPares = listNumeros.FindAll(i => i % 2 == 0);
 
-            foreach( int item in listNumerosPares)
+            foreach (int item in listNumerosPares)
             {
                 Console.WriteLine(item);
             }
 
-            Console.WriteLine("Haciendo foreach usando expresiones lambda") ;
+            Console.WriteLine("Haciendo foreach usando expresiones lambda");
             listNumerosPares.ForEach(numero => Console.WriteLine(numero));
             Console.WriteLine("----------------");
 
-            CPersona personaUno = new CPersona { Nombre = "Juan", Edad = 18,Logros=3 };
-            CPersona personaDos = new CPersona { Nombre = "Edith", Edad = 35,Logros=3 };
+            CPersona personaUno = new CPersona { Nombre = "Juan", Edad = 18, Logros = 3 };
+            CPersona personaDos = new CPersona { Nombre = "Edith", Edad = 35, Logros = 3 };
             //Delegado con expresion lambda
-            DelBoolCompara delComparaInt = new DelBoolCompara((personaUno,personaDos)=> personaUno==personaDos);
+            DelBoolCompara delComparaInt = new DelBoolCompara((personaUno, personaDos) => personaUno == personaDos);
 
-            Console.WriteLine("La edad es igual?{0}",delComparaInt(personaUno.Edad,personaDos.Edad));
-            Console.WriteLine("La cantidad de logros es igual?{0}",delComparaInt(personaUno.Logros,personaDos.Logros));
-            Console.WriteLine( "-----");
+            Console.WriteLine("La edad es igual?{0}", delComparaInt(personaUno.Edad, personaDos.Edad));
+            Console.WriteLine("La cantidad de logros es igual?{0}", delComparaInt(personaUno.Logros, personaDos.Logros));
+            Console.WriteLine("-----");
             DelBoolComparaString delComparaString = new DelBoolComparaString((personaUno, personaDos) => personaUno == personaDos);
-            Console.WriteLine("Los nombres son iguales?{0}",delComparaString(personaUno.Nombre,personaDos.Nombre));
+            Console.WriteLine("Los nombres son iguales?{0}", delComparaString(personaUno.Nombre, personaDos.Nombre));
 
-          
+
 
             Console.ReadLine();
         }
 
 
-        public static int FuncionSuma(int pNumeroUno,int pNumeroDos)
+        public static int FuncionSuma(int pNumeroUno, int pNumeroDos)
         {
             return pNumeroUno + pNumeroDos;
         }
 
         public static int FuncionCuadratica(int numero)
         {
-            return numero * numero; 
+            return numero * numero;
         }
 
         public void Informativo()
