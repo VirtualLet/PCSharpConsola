@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D61987A4-6E56-44EC-AB93-3AD2F6369632}</ProjectGuid>
+    <ProjectGuid>{746F4634-06B5-477F-A8B6-BF6178A2520F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PI_02IEnumerable</RootNamespace>
-    <AssemblyName>PI_02IEnumerable</AssemblyName>
+    <RootNamespace>PI_03IEnumerator</RootNamespace>
+    <AssemblyName>PI_03IEnumerator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAuto.cs" />
-    <Compile Include="CTiendaAuto.cs" />
-    <Compile Include="IAutomovil.cs" />
+    <Compile Include="CContenedora.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

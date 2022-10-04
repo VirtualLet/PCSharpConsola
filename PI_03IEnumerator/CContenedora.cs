@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PI_02IEnumerable
+namespace PI_03IEnumerator
 {
     class CContenedora: IEnumerable
     {
@@ -22,15 +22,14 @@ namespace PI_02IEnumerable
         IEnumerator IEnumerable.GetEnumerator()
         {
             //se instancia el enumerator y se regresa;
-            return (new CContenedoraEnum(valores));
+            return new CContenedoraEnum(valores);
         }
     }
-
     class CContenedoraEnum : IEnumerator
     {
         public int[] arreglo;
         private int posicion = -1;
-       public CContenedoraEnum(int [] pArreglo)
+        public CContenedoraEnum(int[] pArreglo)
         {
             arreglo = pArreglo;
         }
@@ -39,7 +38,7 @@ namespace PI_02IEnumerable
         {
             posicion++;
             if (posicion < arreglo.Length)
-                 return true;
+                return true;
             else
                 return false;
         }

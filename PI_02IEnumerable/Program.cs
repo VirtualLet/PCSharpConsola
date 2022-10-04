@@ -15,21 +15,9 @@ namespace PI_02IEnumerable
             {
                 IEnumerator GetEnumerator();
             }
-
-            public interface IEnumerator
-            {
-                bool MoveNext();
-                object Current {get;}
-                void Reset();                
-            }
              */
-            UsoIEnumeratorIncluidoEnArreglos();
-            ImplementandoIEnumerator();
 
-        }
-        //lección 02IEnumerable
-        private static void UsoIEnumeratorIncluidoEnArreglos()
-        {
+            Console.WriteLine("UsoIEnumeratorIncluidoEnArreglos");
             CTiendaAuto cTienda = new CTiendaAuto();
 
             foreach (CAuto auto in cTienda)
@@ -38,20 +26,7 @@ namespace PI_02IEnumerable
                 auto.MostrarInformacion();
             }
             Console.ReadLine();
+
         }
-        //Lección 03 IEnumerator
-        private static void ImplementandoIEnumerator()
-        {
-            CContenedora datos = new CContenedora();
-            foreach(int valor in datos)
-            {
-                Console.WriteLine(valor);
-            }
-            Console.ReadLine();
-        }
-
-
-
-
     }
 }

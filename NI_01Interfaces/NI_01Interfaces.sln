@@ -135,9 +135,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_24TiposAnonimos", "..\PA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_18ProblemasClaseGenerica", "..\PA_18ProblemasClaseGenerica\PA_18ProblemasClaseGenerica.csproj", "{21CA4FFD-D00E-41E3-BFD6-3D742B8F26D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_69DelegadosExpresionesLambda", "..\Pildoras_69DelegadosExpresionesLambda\Pildoras_69DelegadosExpresionesLambda.csproj", "{C14A1CCB-6E03-49E0-87BA-BA9F56E6CECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_69DelegadosExpresionesLambda", "..\Pildoras_69DelegadosExpresionesLambda\Pildoras_69DelegadosExpresionesLambda.csproj", "{C14A1CCB-6E03-49E0-87BA-BA9F56E6CECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pildoras_67Delegado", "..\Pildoras_67Delegado\Pildoras_67Delegado.csproj", "{5860D878-E7ED-4DE0-B442-CF4C79CC7378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_67Delegado", "..\Pildoras_67Delegado\Pildoras_67Delegado.csproj", "{5860D878-E7ED-4DE0-B442-CF4C79CC7378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pildoras_70ExpresionesRegulares", "..\Pildoras_70ExpresionesRegulares\Pildoras_70ExpresionesRegulares.csproj", "{B4C39F19-3041-4DA9-B3DD-B1855CCC9E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_12Indexer", "..\PI_12Indexer\PI_12Indexer.csproj", "{0F602162-0323-4BC2-9221-F0CD7578B53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_03IEnumerator", "..\PI_03IEnumerator\PI_03IEnumerator.csproj", "{746F4634-06B5-477F-A8B6-BF6178A2520F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_12IndexerModificado", "..\PI_12IndexerModificado\PI_12IndexerModificado.csproj", "{62E6D757-21D2-4AC6-AA8A-DCF254EE993A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_25MetodosDeExtension", "..\PA_25MetodosDeExtension\PA_25MetodosDeExtension.csproj", "{2D2193B0-1B39-47D2-9975-BFD1CA075116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +427,26 @@ Global
 		{5860D878-E7ED-4DE0-B442-CF4C79CC7378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5860D878-E7ED-4DE0-B442-CF4C79CC7378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5860D878-E7ED-4DE0-B442-CF4C79CC7378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C39F19-3041-4DA9-B3DD-B1855CCC9E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C39F19-3041-4DA9-B3DD-B1855CCC9E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C39F19-3041-4DA9-B3DD-B1855CCC9E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C39F19-3041-4DA9-B3DD-B1855CCC9E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F602162-0323-4BC2-9221-F0CD7578B53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F602162-0323-4BC2-9221-F0CD7578B53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F602162-0323-4BC2-9221-F0CD7578B53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F602162-0323-4BC2-9221-F0CD7578B53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746F4634-06B5-477F-A8B6-BF6178A2520F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746F4634-06B5-477F-A8B6-BF6178A2520F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746F4634-06B5-477F-A8B6-BF6178A2520F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746F4634-06B5-477F-A8B6-BF6178A2520F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E6D757-21D2-4AC6-AA8A-DCF254EE993A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E6D757-21D2-4AC6-AA8A-DCF254EE993A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E6D757-21D2-4AC6-AA8A-DCF254EE993A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E6D757-21D2-4AC6-AA8A-DCF254EE993A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2193B0-1B39-47D2-9975-BFD1CA075116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2193B0-1B39-47D2-9975-BFD1CA075116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2193B0-1B39-47D2-9975-BFD1CA075116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2193B0-1B39-47D2-9975-BFD1CA075116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

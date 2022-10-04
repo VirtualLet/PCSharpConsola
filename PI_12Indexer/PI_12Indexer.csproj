@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D61987A4-6E56-44EC-AB93-3AD2F6369632}</ProjectGuid>
+    <ProjectGuid>{0F602162-0323-4BC2-9221-F0CD7578B53E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PI_02IEnumerable</RootNamespace>
-    <AssemblyName>PI_02IEnumerable</AssemblyName>
+    <RootNamespace>PI_12Indexer</RootNamespace>
+    <AssemblyName>PI_12Indexer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CAuto.cs" />
-    <Compile Include="CTiendaAuto.cs" />
-    <Compile Include="IAutomovil.cs" />
+    <Compile Include="CTiendaAutos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

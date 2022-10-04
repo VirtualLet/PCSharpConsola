@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D61987A4-6E56-44EC-AB93-3AD2F6369632}</ProjectGuid>
+    <ProjectGuid>{2D2193B0-1B39-47D2-9975-BFD1CA075116}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PI_02IEnumerable</RootNamespace>
-    <AssemblyName>PI_02IEnumerable</AssemblyName>
+    <RootNamespace>PA_25MetodosDeExtension</RootNamespace>
+    <AssemblyName>PA_25MetodosDeExtension</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAuto.cs" />
-    <Compile Include="CTiendaAuto.cs" />
-    <Compile Include="IAutomovil.cs" />
+    <Compile Include="CExtension.cs" />
+    <Compile Include="CIngreso.cs" />
+    <Compile Include="CPersona.cs" />
+    <Compile Include="IBienvenida.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
