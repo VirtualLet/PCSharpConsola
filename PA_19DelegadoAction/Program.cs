@@ -11,7 +11,7 @@ namespace PA_19ActionyFunc
         static void Main(string[] args)
         {
             UsoDeAction(); //para delegados que no tienen valor de retorno
-            Console.WriteLine("----");
+            Console.WriteLine("--EJEM FUNC--");
             UsoDeFunc(); //Para delegados con un tipo de valor de retorno
 
             Console.ReadLine();
@@ -31,6 +31,18 @@ namespace PA_19ActionyFunc
 
             //Se invoca al delegado
             delAction(mensaje, numero);
+
+            Console.WriteLine("----");
+
+            Action<bool> delInterruptor = new Action<bool>(pInterruptor =>
+            {
+                if (pInterruptor) Console.WriteLine("Encendido");
+                else Console.WriteLine("Apagado");
+            });
+
+            bool interruptor = true;
+            delInterruptor(interruptor);
+
         }
         //Método de handler para Action
         public static void RepiteMensaje(string pMensaje, int pRepeticiones)
