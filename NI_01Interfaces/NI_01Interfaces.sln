@@ -153,6 +153,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_27ObjetoImplementaInterf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_28ManejoDeInterfacesConMetodos", "..\PA_28ManejoDeInterfacesConMetodos\PA_28ManejoDeInterfacesConMetodos.csproj", "{4F6CE11B-649B-4CE2-8AA1-8E08B8A46DF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_29ImplementacionExplicitaInterfaz", "..\PA_29ImplementacionExplicitaInterfaz\PA_29ImplementacionExplicitaInterfaz.csproj", "{56FBBE7F-8D67-45D0-BBB9-D147F470B6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_29JerarquiaDeInterfaces", "..\PA_29JerarquiaDeInterfaces\PA_29JerarquiaDeInterfaces.csproj", "{B1539E25-1290-403E-B216-D54AC045948F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_30Excepciones", "..\PA_30Excepciones\PA_30Excepciones.csproj", "{2FA1850C-CFCF-4ABC-AF15-44740826B90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_13SobrecargaOperadoresBinarios", "..\PI_13SobrecargaOperadoresBinarios\PI_13SobrecargaOperadoresBinarios.csproj", "{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +467,22 @@ Global
 		{4F6CE11B-649B-4CE2-8AA1-8E08B8A46DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6CE11B-649B-4CE2-8AA1-8E08B8A46DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6CE11B-649B-4CE2-8AA1-8E08B8A46DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FBBE7F-8D67-45D0-BBB9-D147F470B6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FBBE7F-8D67-45D0-BBB9-D147F470B6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FBBE7F-8D67-45D0-BBB9-D147F470B6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FBBE7F-8D67-45D0-BBB9-D147F470B6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1539E25-1290-403E-B216-D54AC045948F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1539E25-1290-403E-B216-D54AC045948F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1539E25-1290-403E-B216-D54AC045948F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1539E25-1290-403E-B216-D54AC045948F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA1850C-CFCF-4ABC-AF15-44740826B90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA1850C-CFCF-4ABC-AF15-44740826B90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA1850C-CFCF-4ABC-AF15-44740826B90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA1850C-CFCF-4ABC-AF15-44740826B90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

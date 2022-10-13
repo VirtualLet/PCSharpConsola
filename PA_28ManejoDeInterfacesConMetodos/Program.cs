@@ -28,11 +28,15 @@ namespace PA_28ManejoDeInterfacesConMetodos
             MuestraElectronico(radio);
             Console.WriteLine("----");
 
-            aparatoCreado= CrearElectronico();
+            //El método CrearElectronico puede regresar cualquier objeto que implemente a IElectronico
+            aparatoCreado = CrearElectronico();
             aparatoCreado.Encender(true);
             Console.WriteLine(aparatoCreado);
 
             Console.WriteLine("----");
+            //Hice una prueba, cree un lista de IElectronico
+            //esto permite añadir todas las clases que implementen IElectronico
+            //De esta manera se pueden almacenar clases distintas
             List<IElectronico> listElectronico = new List<IElectronico>(arrayElectronicos);
             listElectronico.Add(aparatoCreado);
             listElectronico.ForEach(item => Console.WriteLine(item));

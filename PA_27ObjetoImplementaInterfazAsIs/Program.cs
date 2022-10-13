@@ -16,9 +16,10 @@ namespace PA_27ObjetoImplementaInterfazAsIs
             //Método 2 por as (puede ser tratado como)
             MetodoPorAs();
             //Metodo 3 por is ( p es compatible con
-            MetodoIs();
+            MetodoIs();          
             Console.ReadLine();
         }
+
 
         public static void MetodoIs()
         {
