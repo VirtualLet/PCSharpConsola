@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<CAutoXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Costo>40</Costo>
+  <Modelo>mercedes</Modelo>
+  <Motor>
+    <Cilindros>4</Cilindros>
+    <HP>4</HP>
+  </Motor>
+</CAutoXML>

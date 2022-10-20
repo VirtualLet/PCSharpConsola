@@ -161,6 +161,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA_30Excepciones", "..\PA_3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_13SobrecargaOperadoresBinarios", "..\PI_13SobrecargaOperadoresBinarios\PI_13SobrecargaOperadoresBinarios.csproj", "{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_17SerializacionBinaria", "..\PI_17SerializacionBinaria\PI_17SerializacionBinaria.csproj", "{0FA044F6-2F58-441B-BA30-EDAFB63781F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_18SerializaciónSOAP", "..\PI_18SerializaciónSOAP\PI_18SerializaciónSOAP.csproj", "{940E8B31-EE6B-4374-AF3A-57AC72E5E9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_18SerializacionXML", "..\PI_18SerializacionXML\PI_18SerializacionXML.csproj", "{258DEE7E-90CF-418D-9C74-7D4E574394CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_19SerializacionComposicion", "..\PI_19SerializacionComposicion\PI_19SerializacionComposicion.csproj", "{8C6126C7-5D9B-4B64-9F07-7EFB9A8C703C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +491,22 @@ Global
 		{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21799B2-B3A9-4C3D-98F0-2DD7842533B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA044F6-2F58-441B-BA30-EDAFB63781F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA044F6-2F58-441B-BA30-EDAFB63781F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA044F6-2F58-441B-BA30-EDAFB63781F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA044F6-2F58-441B-BA30-EDAFB63781F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940E8B31-EE6B-4374-AF3A-57AC72E5E9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940E8B31-EE6B-4374-AF3A-57AC72E5E9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940E8B31-EE6B-4374-AF3A-57AC72E5E9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940E8B31-EE6B-4374-AF3A-57AC72E5E9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258DEE7E-90CF-418D-9C74-7D4E574394CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258DEE7E-90CF-418D-9C74-7D4E574394CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258DEE7E-90CF-418D-9C74-7D4E574394CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258DEE7E-90CF-418D-9C74-7D4E574394CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6126C7-5D9B-4B64-9F07-7EFB9A8C703C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6126C7-5D9B-4B64-9F07-7EFB9A8C703C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6126C7-5D9B-4B64-9F07-7EFB9A8C703C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6126C7-5D9B-4B64-9F07-7EFB9A8C703C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
